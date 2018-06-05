@@ -6,7 +6,7 @@ environment:
     access_token:
         secure: PX1R0Ds6r3TTm+wxVbx8MRAgjCRV/juO3cYSEz1MedB/OXvZ3YkqpQGE+X47bcFT
     matrix:
-        - APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2017
+        #- APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2017
         # waiting on https://github.com/RamblingCookieMonster/BuildHelpers/pull/60
         # - APPVEYOR_BUILD_WORKER_IMAGE: WMF 4
         - APPVEYOR_BUILD_WORKER_IMAGE: Ubuntu
