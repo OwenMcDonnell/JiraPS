@@ -208,7 +208,7 @@ task Test Init, {
         if ($env:APPVEYOR_PULL_REQUEST_NUMBER) {
             $parameter["Show"] = "Fails"
         }
-        $testResults = Invoke-Pester @parameter
+        $testResults = Invoke-Pester $parameter
 
         If ('AppVeyor' -eq $env:BHBuildSystem) {
             BuildHelpers\Add-TestResultToAppveyor -TestFile $parameter["OutputFile"]
