@@ -1,5 +1,6 @@
 
 environment:
+    appveyor_build_worker_cloud: gce
     PSGalleryAPIKey:
         secure: Ezd2JjB6rbNZOiJmcek2bZSSdXB34fjoC6JXdXcICf6KZGoBOIRZAG9KfHAYiMa7
         # Must be updated to use contact@AtlassianPS.net user
